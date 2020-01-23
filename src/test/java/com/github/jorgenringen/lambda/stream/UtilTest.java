@@ -34,7 +34,7 @@ public class UtilTest {
     public void shouldCountStringsWithFiveCharacters() {
         List<String> input = asList("a", "bb", "ccc", "dddd", "eeeee", "ffffff");
         Long result = Util.countStringsWithFiveCharacters(input);
-        assertThat(result, equalTo(1));
+        assertThat(result, equalTo(1L));
     }
 
     @Test
